@@ -16,4 +16,5 @@ The application covers the following aspects of Fabric:
 9. View all transactions
 10. Get History of all transactions
  
-
+## Technology Stack
+Underlying technology stack are  : Java 8 and Gradle
