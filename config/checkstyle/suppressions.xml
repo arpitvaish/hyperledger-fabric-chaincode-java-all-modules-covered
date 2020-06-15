@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suppressions PUBLIC
+    "-//Checkstyle//DTD SuppressionFilter Configuration 1.2//EN"
+    "https://checkstyle.org/dtds/suppressions_1_2.dtd">
+
+<suppressions>
+    <suppress files="ChaincodeTest.java" checks="ParameterNumber" />
+    <suppress files="ScbPayments.java" checks="ParameterNumber" />
+    <suppress files="ScbPayments.java" checks="MethodParamPad" />
+    <suppress files="ScbPayments.java" checks="LineLength" />
+    <suppress files="TransactionData.java" checks="LineLength" />
+    <suppress files="TransactionData.java" checks="OperatorWrap" />
+    <suppress files="TransactionData.java" checks="ParameterNumber" />
+    <suppress files="PaymentTransaction.java" checks="HiddenField" />
+    <suppress files="ScbPaymentsTest.java" checks="LineLength" />
+    <suppress files="ScbPaymentsTest.java" checks="VisibilityModifier" />
+    <suppress files="ScbPaymentsTest.java" checks="DesignForExtension" />
+    <suppress files="PaymentTransactionTest.java" checks="LineLength" />
+    <suppress files="PaymentTransactionTest.java" checks="VisibilityModifier" />
+    <suppress files="PaymentTransactionTest.java" checks="DesignForExtension" />
+</suppressions>
