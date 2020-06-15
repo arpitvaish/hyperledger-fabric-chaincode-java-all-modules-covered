@@ -1,4 +1,4 @@
-package org.hyperledger.fabric.scb.payments.utility;
+package org.hyperledger.fabric.bank.payments.utility;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

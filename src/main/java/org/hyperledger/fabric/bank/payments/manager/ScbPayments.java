@@ -2,7 +2,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.hyperledger.fabric.scb.payments.manager;
+package org.hyperledger.fabric.bank.payments.manager;
 
 import com.owlike.genson.Genson;
 import org.apache.commons.logging.Log;
@@ -15,11 +15,11 @@ import org.hyperledger.fabric.contract.annotation.Default;
 import org.hyperledger.fabric.contract.annotation.Info;
 import org.hyperledger.fabric.contract.annotation.License;
 import org.hyperledger.fabric.contract.annotation.Transaction;
-import org.hyperledger.fabric.scb.payments.constants.Constants;
-import org.hyperledger.fabric.scb.payments.model.PaymentTransaction;
-import org.hyperledger.fabric.scb.payments.model.TransactionData;
-import org.hyperledger.fabric.scb.payments.model.TransactionPrivateData;
-import org.hyperledger.fabric.scb.payments.utility.PaymentsUtility;
+import org.hyperledger.fabric.bank.payments.constants.Constants;
+import org.hyperledger.fabric.bank.payments.model.PaymentTransaction;
+import org.hyperledger.fabric.bank.payments.model.TransactionData;
+import org.hyperledger.fabric.bank.payments.model.TransactionPrivateData;
+import org.hyperledger.fabric.bank.payments.utility.PaymentsUtility;
 import org.hyperledger.fabric.shim.Chaincode;
 import org.hyperledger.fabric.shim.ChaincodeException;
 import org.hyperledger.fabric.shim.ChaincodeStub;

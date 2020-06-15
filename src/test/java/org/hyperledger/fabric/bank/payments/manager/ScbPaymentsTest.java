@@ -1,11 +1,11 @@
-package org.hyperledger.fabric.scb.payments.manager;
+package org.hyperledger.fabric.bank.payments.manager;
 
 import com.owlike.genson.Genson;
 import org.hyperledger.fabric.contract.Context;
-import org.hyperledger.fabric.scb.payments.constants.Constants;
-import org.hyperledger.fabric.scb.payments.model.PaymentTransaction;
-import org.hyperledger.fabric.scb.payments.model.TransactionData;
-import org.hyperledger.fabric.scb.payments.model.TransactionPrivateData;
+import org.hyperledger.fabric.bank.payments.constants.Constants;
+import org.hyperledger.fabric.bank.payments.model.PaymentTransaction;
+import org.hyperledger.fabric.bank.payments.model.TransactionData;
+import org.hyperledger.fabric.bank.payments.model.TransactionPrivateData;
 import org.hyperledger.fabric.shim.Chaincode;
 import org.hyperledger.fabric.shim.ChaincodeStub;
 import org.hyperledger.fabric.shim.ledger.KeyValue;

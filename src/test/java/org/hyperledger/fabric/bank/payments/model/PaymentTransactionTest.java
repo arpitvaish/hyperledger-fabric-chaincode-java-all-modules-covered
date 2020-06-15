@@ -1,4 +1,4 @@
-package org.hyperledger.fabric.scb.payments.model;
+package org.hyperledger.fabric.bank.payments.model;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Nested;

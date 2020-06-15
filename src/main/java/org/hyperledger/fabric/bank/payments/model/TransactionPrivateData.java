@@ -1,4 +1,4 @@
-package org.hyperledger.fabric.scb.payments.model;
+package org.hyperledger.fabric.bank.payments.model;
 
 /**
  * Created by Arpit Vaish on 10/10/2019.

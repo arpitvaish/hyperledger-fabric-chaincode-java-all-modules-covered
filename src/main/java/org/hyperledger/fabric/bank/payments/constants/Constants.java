@@ -1,7 +1,7 @@
-package org.hyperledger.fabric.scb.payments.constants;
+package org.hyperledger.fabric.bank.payments.constants;
 
 /**
- * Created by 1604993 on 10/30/2019.
+ * Created by arpit vaish on 10/30/2019.
  */
 public final class Constants {
     public static final int ZERO = 0;
